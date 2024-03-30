@@ -1,0 +1,65 @@
+.authorization-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.form-container {
+  width: 35%;
+  padding: 10px;
+  border: 2px solid #282c34;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.form-container h2 {
+  color: #282c34;
+}
+
+.form-header {
+  text-align: center;
+}
+
+.form-container p {
+  color: #282c34; /* Blue paragraph text */
+}
+
+.form-container label {
+  margin-bottom: 10px;
+  color: #282c34;
+}
+
+.form-container button {
+  padding: 12px 24px;
+  background-color: #17a2b8; /* Turquoise button background */
+  color: #fff; /* White button text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #138496; /* Darker turquoise on hover */
+}
+
+.form-container .error-message {
+  color: #dc3545;
+}
+
+.form-container label {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 5px; 
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #282c34;
+  border-radius: 5px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,23 @@
+.campaign-container {
+  display: flex;
+  flex-direction: row;
+  height:100vh;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.gameplay-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  flex-grow: 2;
+}
+
+.campaign-header {
+  text-align: center;
+}

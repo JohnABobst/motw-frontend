@@ -1,0 +1,17 @@
+
+  .gear-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+  }
+  
+  .gear-item h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .gear-item p {
+    margin: 0;
+  }
+  

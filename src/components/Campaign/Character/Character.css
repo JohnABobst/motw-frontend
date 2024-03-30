@@ -1,0 +1,57 @@
+.character-info-container {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  width: 10%;
+}
+
+.character h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.moves-container {
+  display: flex;
+  flex-direction: column;
+  position: relative; 
+}
+
+.move {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* In your CSS file */
+.gear-container {
+  border: 1px solid #ccc; 
+  padding: 10px; 
+}
+
+.gear-list {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+.gear-item {
+  margin-bottom: 10px; /* Add some space between gear items */
+}
+
+.gear-item strong {
+  color: #007bff; /* Set color for gear names */
+}
+
+

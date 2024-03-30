@@ -1,0 +1,23 @@
+.campaign-output-container {
+    margin: 0 auto;
+    border-radius: 10px;
+    flex-grow: 2;
+
+}
+
+.campaign-output-title {
+    color: #007bff;
+}
+
+.campaign-output-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.campaign-content {
+    margin-bottom: 10px;
+    overflow-y: auto;
+  }

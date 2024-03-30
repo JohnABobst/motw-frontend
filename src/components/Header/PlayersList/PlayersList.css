@@ -1,0 +1,27 @@
+  .player-list {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    height: 100%
+  }
+
+  .player-list-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .player-item {
+    padding: 8px;
+    margin: 4px 0;
+    font-size: 16px;
+  }
+  
+  .player-item.online {
+    color: green;
+  }
+  
+  .player-item.offline {
+    color: gray;
+  }
+  
+  
