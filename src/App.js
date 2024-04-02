@@ -8,7 +8,6 @@ import Header from './components/Header/Header';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [isRegistering, setIsRegistering] = useState(false);
 
   const dummyPlayers = [
     { name: 'Player 1', online: true },

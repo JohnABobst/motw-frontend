@@ -15,7 +15,7 @@ const ModalContainer = ({ title, info }) => {
   return (
     <div className="modal-item"
         onMouseEnter={() => handleMouseEnter(info)}
-        onMouseLeave={handleMouseLeave}
+        onMouseLeave={() => handleMouseLeave()}
         ref={triggerRef}
     >   
     {title}

@@ -34,9 +34,9 @@ const CharacterStats = ({ characterStats, setCharacterStats }) => {
 
   return (
     <div className="character-stats">
-      {Object.keys(characterStats).map(stat => (
+      {Object.keys(characterStats).map((stat, index) => (
       (
-          <div className="stat">
+          <div className="stat" key={index}>
             <strong>{stat.charAt(0).toUpperCase() + stat.slice(1)}:</strong> {characterStats[stat]}{' '}
             { isLeveling && (
               <>
