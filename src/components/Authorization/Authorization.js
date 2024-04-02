@@ -18,14 +18,14 @@ function Authorization({ handleLogin }) {
           <Login
             handleLogin={handleLogin}
           />
-          <p>Don't have an account? <button onClick={handleSwitch}>Register</button></p>
+          <p>Don't have an account? <button onClick={() => handleSwitch()}>Register</button></p>
         </div>
       ) : (
         <div className="form-container">
           <Register
             handleLogin={handleLogin}
           />
-          <p>Already have an account? <button onClick={handleSwitch}>Login</button></p>
+          <p>Already have an account? <button onClick={() => handleSwitch()}>Login</button></p>
         </div>
       )}
     </div>

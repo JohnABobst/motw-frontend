@@ -1,14 +1,13 @@
 
-import React, { useState } from 'react';
-import Modal from '../../../UtilityComponents/Modal/Modal';
+import React from 'react';
 import '../Character.css';
 import ModalContainer from '../../../UtilityComponents/Modal/ModalContainer';
 
 const GenericMoves = ({moves}) => {
     return (
         <div className="modal-container">
-            {Object.keys(moves).map(move => (
-                <ModalContainer title={move} info={moves[move]} />
+            {Object.keys(moves).map((move, index) => (
+                <ModalContainer key={index} title={move} info={moves[move]} />
             ))}
         </div>
     );

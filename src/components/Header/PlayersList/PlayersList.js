@@ -1,7 +1,7 @@
 import React from 'react';
 import './PlayersList.css'
 
-const PlayerList = ({ players }) => {
+const PlayersList = ({ players }) => {
   return (
     <div className="player-list">
             <div className='player-list-container'>
@@ -15,4 +15,4 @@ const PlayerList = ({ players }) => {
   );
 };
 
-export default PlayerList;
+export default PlayersList;

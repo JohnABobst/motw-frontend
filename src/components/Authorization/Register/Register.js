@@ -23,7 +23,7 @@ function Registration({ onRegistration }) {
 
       const data = await response.json();
       localStorage.setItem('token', data.token);
-      onRegistration(); // Notify parent component of successful registration
+      onRegistration();
     } catch (error) {
       setError('Failed to register. Please try again.');
     }
@@ -33,7 +33,7 @@ function Registration({ onRegistration }) {
     <div>
       <h2 className='form-header'>Registration</h2>
       {error && <p className="error-message">{error}</p>}
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={() => handleSubmit()}>
         <div>
           <label>Username:</label>
           <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />

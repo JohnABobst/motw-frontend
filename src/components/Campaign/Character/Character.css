@@ -3,7 +3,7 @@
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 10px;
-  width: 10%;
+  width: 30%;
 }
 
 .character h2 {
@@ -35,23 +35,5 @@
   cursor: pointer;
 }
 
-/* In your CSS file */
-.gear-container {
-  border: 1px solid #ccc; 
-  padding: 10px; 
-}
-
-.gear-list {
-  list-style: none; /* Remove default list styles */
-  padding: 0; /* Remove default padding */
-}
-
-.gear-item {
-  margin-bottom: 10px; /* Add some space between gear items */
-}
-
-.gear-item strong {
-  color: #007bff; /* Set color for gear names */
-}
 
 

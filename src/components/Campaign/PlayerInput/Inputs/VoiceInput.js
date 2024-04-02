@@ -47,7 +47,7 @@ const VoiceInput = ({ onTranscriptChange }) => {
   }
 
   return (
-      <button type="button" className={`campaign-button form-button ${isRecording ? 'recording' : ''} `} onClick={handleClick}>
+      <button type="button" className={`campaign-button form-button ${isRecording ? 'recording' : ''} `} onClick={() => handleClick()}>
         {isRecording ? 'Stop Recording' : 'Record'}
         {isRecording && <span className="record-symbol">●</span>}
       </button>

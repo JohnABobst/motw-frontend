@@ -67,3 +67,13 @@ export const moves = {
     "Use Magic": "When you use magic, roll +Weird. On a 10+, the magic works without issues. On a 7-9, choose one of the glitches: the effect is weakened, the effect is of short duration, you take 1-harm, or the magic draws immediate, unwelcome attention. On a miss, the Keeper will choose a glitch and decide how it manifests."
 }
 
+export const stats = {
+    charm: 2,
+    sharp: 3,
+    tough: 2,
+    cool: 1,
+    weird: 2,
+    luck: 1,
+    experience: 3,
+    harm: 3,
+}
